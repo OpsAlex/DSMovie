@@ -24,7 +24,11 @@ header {
     margin: 0px;
     font-weight: 700;
     font-size: 28px;
+    color: #fff;
 }
 
+.dsmovie-nav-content :link {
+    text-decoration: none;
+}
 
 
