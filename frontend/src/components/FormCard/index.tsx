@@ -21,7 +21,6 @@ function FormCard( { movieId } : Props) {
             .then(response => {
                 setMovie(response.data);
             });
-            console.log(movieId);
     }, [movieId]);
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
